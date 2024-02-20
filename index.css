@@ -1,0 +1,122 @@
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: "Poppins", sans-serif;
+          text-decoration: none;
+        }
+        body{
+          background-image:url(/HD\ wallpaper_\ earth\,\ black\ background\,\ world\ map\,\ the\ continent.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .main {
+          display: flex;
+          align-items: center;
+        }
+        
+        .images {
+          display: flex;
+          width: 100%;
+          overflow: hidden;
+        }
+        
+        .images img {
+          width: 100%;
+          object-fit: cover;
+        }
+        
+        .sliders {
+          padding: 10px;
+          width: 100%;
+          overflow: hidden;
+          position: relative;
+          
+        }
+        
+        .right {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          width: 80%;
+          padding: 20px;
+          gap: 3rem;
+        }
+        .right h1{
+          font-size: 28px;
+          color:red;
+        }
+        .right p{
+          font-weight: 600;
+          line-height: 2;
+          color:white
+
+        }
+        .header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 5px;
+        }
+        
+        .header {
+          background-color: aqua;
+          position: sticky;
+        }
+        
+        .header .logo img {
+          width: 120px;
+        }
+        
+        .logo {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        
+        .nav a {
+          margin-right: 40px;
+          font-size: 23px;
+          color: black;
+          font-weight: 800;
+          transition: background-color 0.3s ease;
+        }
+        
+        .logo a {
+          color: black;
+          font-weight: 600;
+          margin-top: 20px;
+        }
+        
+        .nav a:hover {
+          background-color: red;
+          border-radius: 20px;
+          padding: 5px 10px;
+          margin-right: 15px;
+        }
+        .images {
+          display: flex;
+          width: 100%;
+          overflow: hidden;
+          height:500px;
+          padding: 10px;
+      }
+      
+      .slider-image {
+          width: 100%;
+          object-fit: cover;
+          display: none; /* Hide all images by default */
+      }
+      
+      .slider-image:first-child {
+          display: block; /* Display the first image */
+      }
+      
+      .sliders {
+          padding: 10px;
+          width: 100%;
+          overflow: hidden;
+          position: relative;
+          
+      }              

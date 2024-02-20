@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="index.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+          <section id="body" class="body">
+<section class="header">
+          <div class="logo">
+                    <img src="/NGO logo.png" alt="">
+                    <a href="">MAA WIDOWS AND OVC</a>
+          </div>
+          <nav class="nav">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Our Work</a>
+                    <a href=""> How to help</a>
+                    <a href="">Contact Us</a>
+
+          </nav>
+</section>
+<section class="main">
+          <div class="right">
+                    <h1>MAA WIDOWS AND OVC</h1>
+          <p>
+                    MAA Widows, Orphans, and Vulnerable Children is a community-based organization (CBO) with the Registration Number NRK/HDM/03640. It was formally registered in 2022.
+Currently, our organization comprises 300 widows distributed across 10 wards within the county, with approximately 30 widows in each ward.
+
+          </p>
+          </div>.
+          <div class="sliders">
+                    <div class="images">
+                              <img class="slider-image" src="/download (4).jpg" >
+                              <img class="slider-image" src="/Bla Secondary School- Sept 2014.jpg" >
+                              <img class="slider-image" src="/The impact of ecotourism & ethical itineraries with Jumbari Family Safaris.jpg" >
+                              <img class="slider-image" src="/Water for South Sudan.jpg" >
+                    </div>
+          </div>
+
+
+</section>
+          </section>
+      
+          <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const images = document.querySelectorAll('.slider-image');
+        let currentIndex = 0;
+
+        function showImage(index) {
+            images.forEach((image, i) => {
+                image.style.display = i === index ? 'block' : 'none';
+            });
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % images.length;
+            showImage(currentIndex);
+        }
+
+        // Adjust the interval (in milliseconds) for the slideshow speed
+        const interval = 3000;
+        setInterval(nextSlide, interval);
+    });
+</script>
+
+        
+</body>
+</html>
